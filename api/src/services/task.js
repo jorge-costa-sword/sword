@@ -1,4 +1,3 @@
-/* eslint-disable */
 const { format: formatDate } = require("date-fns");
 const consts = require("../common/consts");
 const ApiError = require("../common/api-error");
