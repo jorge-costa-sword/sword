@@ -38,9 +38,6 @@ services:
       TEST_NOTIFICATIONS_QUEUE_HOST: ${TEST_NOTIFICATIONS_QUEUE_HOST}
     ports:
       - "3000:3000"
-    #depends_on:
-    #  - db
-    #  - rabbitmq
     restart: on-failure
   rabbitmq:
     image: rabbitmq
